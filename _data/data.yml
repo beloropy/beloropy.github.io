@@ -84,13 +84,12 @@ projects:
       - title: PUBG NewState 정기 결제 시스템 구현 (GoLang)
         details: |
           - 결제 플랫폼 notification 관련 인프라(GCP Pub/Sub)를 구축했습니다.
-          - 유연하고 확장성 있는 정기 결제 상태 관리 및 보상 처리 시스템을 설계 및 구현했습니다.
+          - 비즈니스적으로 유연하고 확장성 있는 정기 결제 상태 관리 및 보상 처리 시스템을 설계 및 구현했습니다.
 
       - title: PUBG NewState 서비스 성능 및 비용 최적화
         details: |
-          - Redis 자료구조를 사용하고 application-level 캐시를 구현해 서비스의 성능을 최적화했습니다.
+          - Redis Hashes를 사용하고 application-level 캐시를 구현해 서비스의 성능을 최적화했습니다.
           - Batch 처리 및 비동기 처리(goroutine)를 통해 서비스의 network I/O와 response time을 감소시켰습니다.
-          - DynamoDB document 분석 및 최적화를 통해 비용을 감소시켰습니다.
 
       - title: PUBG NewState 컨텐츠 구현 및 서비스 개선 (GoLang, MSA)
         details: |
