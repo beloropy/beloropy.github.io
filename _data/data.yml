@@ -58,71 +58,34 @@ education:
     info:
       - degree: 학사, 컴퓨터공학부
         university: 서울대학교
-        time: 2015.03 - Present
+        time: 2015.03 - 2024.02
 experiences:
     title: Experiences
     info:
-      - role: Server Engineer (PUBG NewState)
+      - role: Server Engineer (NewState, PUBG)
         time: 2021.10 - Present
         company: KRAFTON Inc.
         details: |
-          - Developed new game contents and systems
-          - Optimized and refactored services and modules
-          - GoLang, AWS, K8s, Redis
-      - role: Back-end Engineer (Adbrix Growth Action)
+          - GoLang, MSA, AWS, Redis, K8s
+      - role: Back-end Engineer (Growth Action, DFinery)
         time: 2020.04 - 2021.09
         company: IGAWorks
         details: |
-          - Developed a messaging API and implemented an automated deployment
-          - Developed a delivery module that can send messages by Kakaotalk or SMS
-          - Led the personalization message project, conducted a PoC, researched the other service, and designed the product in the early stage of the project
-          - .NET(C#), AWS, Jenkins
-
+          - .NET, AWS, Docker
 projects:
     title: Projects
     assignments:
-      - title: PUBG NewState 정기 결제 시스템 구현 (GoLang)
-        details: |
-          - 결제 플랫폼 notification 관련 인프라(GCP Pub/Sub)를 구축했습니다.
-          - 비즈니스적으로 유연하고 확장성 있는 정기 결제 상태 관리 및 보상 처리 시스템을 설계 및 구현했습니다.
-
-      - title: PUBG NewState 서비스 성능 및 비용 최적화
-        details: |
-          - Redis Hashes를 사용하고 application-level 캐시를 구현해 서비스의 성능을 최적화했습니다.
-          - Batch 처리 및 비동기 처리(goroutine)를 통해 서비스의 network I/O와 response time을 감소시켰습니다.
-
-      - title: PUBG NewState 컨텐츠 구현 및 서비스 개선 (GoLang, MSA)
-        details: |
-          - 티어, 전적, 대전기록, 클랜 등의 신규 아웃게임 컨텐츠를 구현했습니다.
-          - MSA와 그 component들의 특성을 고려하며 서비스를 개선했습니다.
-          - 확률 모듈 등 여러 모듈을 추가하거나 리팩토링하고 단위 테스트를 추가했습니다.
-
-      - title: Adbrix Growth Action 개인화 메시지 개발 (.NET)
-        details: |
-          - 개인화 메시지 기능의 PoC를 진행하고 다른 서비스를 참고하며 초기 단계의 product를 기획한 뒤 프로젝트 전반을 리드했습니다.
-          - 메시지 개인화 모듈을 개발했습니다.
-          - 개인화 여부에 따라 각 채널별 메시징 API spec에 최적화된 payload를 구성할 수 있도록 메시지 전송 데이터 구조 및 파이프라인을 개선했습니다.
-          - 성능 테스트 후 캐싱, 분산 처리, 내부 템플릿 최적화 등을 통해 메시지 전송 파이프라인에서의 실행 시간을 55% 이상 단축시켰습니다.
-
-      - title: Adbrix Growth Action APNS Token 관리 개선
-        details: |
-          - 메시지 전송 모듈이 APNS API 호출을 위한 토큰을 관리 모듈로부터 획득하고 이를 갱신 요청하는 프로세스를 개선했습니다.
-          - 모듈 단위 테스트 및 통합 테스트를 설계해 시스템의 안전성을 높였습니다.
-
-      - title: Adbrix Growth Action 카카오톡, SMS 등 메시지 채널 확장 (.NET)
-        details: |
-          - 메시지 전송 파이프라인을 리팩토링해 메시지 채널에 대한 확장성을 높였습니다.
-          - 카카오톡, SMS 채널에 대한 메시지 전송 모듈을 개발했습니다.
-
-      - title: Adbrix Growth Action 메시징 API 개발 및 유지보수 (.NET)
-        details: |
-          - 신규 메시징 API(AWS Lambda)를 개발하고 기존 CI/CD 파이프라인(jenkins)을 기반으로 Lambda 배포를 자동화했습니다.
-          - Scheduler 등의 코어 모듈을 프로그래밍 원칙에 맞게 리팩토링하고 단위 테스트를 추가했습니다.
-
-      - title: Side project (Kotlin, Spring framework)
-        details: |
-          - Layered architecture 기반의 server application을 구현했습니다.
-          - 자동화된 CI/CD 파이프라인(Github Action, AWS ECR, EKS, ArgoCD)을 구축했습니다.
+      - title: NewState DynamoDB 응답 시간 최적화
+      - title: NewState 인앱 일회성 상품 결제 프로세스 개선
+      - title: NewState 인앱 정기 결제 시스템 구현
+      - title: NewState 컨텐츠 상점 시스템 구현
+      - title: NewState 클랜 관련 신규 컨텐츠 구현
+      - title: NewState 랭킹, 커스텀 매치 서비스 최적화
+      - title: NewState 시즌, 티어, 대전기록, 전적 기능 확장 및 개선
+      - title: Growth Action 개인화 메시지 개발
+      - title: Growth Action APNS Token 관리 개선
+      - title: Growth Action 메시지 채널 확장
+      - title: Growth Action 메시징 API 개발 및 코어 모듈 개선
 # oss:
 #     title: OSS Contributions
 #     intro: >
