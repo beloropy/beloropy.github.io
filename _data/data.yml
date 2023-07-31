@@ -72,20 +72,6 @@ experiences:
         company: IGAWorks
         details: |
           - .NET, AWS, Docker
-projects:
-    title: Projects
-    assignments:
-      - title: NewState DynamoDB 응답 시간 최적화
-      - title: NewState 인앱 일회성 상품 결제 프로세스 개선
-      - title: NewState 인앱 정기 결제 시스템 구현
-      - title: NewState 컨텐츠 상점 시스템 구현
-      - title: NewState 클랜 관련 신규 컨텐츠 구현
-      - title: NewState 랭킹, 커스텀 매치 서비스 최적화
-      - title: NewState 시즌, 티어, 대전기록, 전적 기능 확장 및 개선
-      - title: Growth Action 개인화 메시지 개발
-      - title: Growth Action APNS Token 관리 개선
-      - title: Growth Action 메시지 채널 확장
-      - title: Growth Action 메시징 API 개발 및 코어 모듈 개선
 # oss:
 #     title: OSS Contributions
 #     intro: >
